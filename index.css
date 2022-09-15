@@ -59,12 +59,14 @@ h1 {
   font-family: sans-serif;
   padding: 5% 10px;
   color: #2a2d1e;
+  padding: min(2vh, 0.5vh);
 }
 
 p {
   color: #2a2d1e;
   padding: 0 10px;
   font-family: sans-serif;
+  padding: min(2vh, 0.5vh);
 }
 
 footer {
@@ -96,4 +98,33 @@ footer {
 }
 .img {
   width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn {
+  background-color: #dce0de;
+  border: 2px solid #2a2d1e;
+  color: #2a2d1e;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 900;
+  height: 48px;
+  letter-spacing: 2px;
+  line-height: 1;
+  min-width: 160px;
+  padding: 16px 14px 18px;
+  text-align: center;
+  text-transform: uppercase;
+  transition-duration: 0.3s;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: #1db954;
 }
