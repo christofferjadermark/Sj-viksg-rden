@@ -6,23 +6,24 @@
 
 nav {
   background-image: url(images/navbakgrund.jpg);
-  background-size: 100vh;
+  /* background-size: 100vh; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 150px;
+  height: 20vh;
   background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 
 .nav-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  font-size: 2em;
-  padding-top: 30px;
+  font-size: 3rem;
   text-shadow: rgb(12, 7, 7) 3px 2px 4px;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
-  padding-bottom: 32px;
 }
 
 .navli {
@@ -32,6 +33,7 @@ nav {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .navli:hover {
@@ -126,5 +128,21 @@ footer {
 }
 
 .btn:hover {
-  background-color: #1db954;
+  background-color: yellowgreen;
+}
+
+@media (min-width: 360px) {
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+  }
+
+  .about-text {
+    margin: min(4vw, 2vw);
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 960px) {
 }
