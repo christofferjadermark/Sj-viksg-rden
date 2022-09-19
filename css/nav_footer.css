@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+
+nav {
+  background-image: url(/images/navbakgrund.jpg);
+  /* background-size: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.nav-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  text-shadow: rgb(12, 7, 7) 3px 2px 4px;
+  letter-spacing: 2px;
+}
+
+.navli {
+  text-decoration: underline solid transparent;
+  transition: text-decoration 0.4s ease;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.navli:hover {
+  text-decoration: underline 1px solid #fddb3a;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px 0;
+}
+
+/* All the footer CSS START */
+
+footer {
+  background-color: #c2c5c3;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 120px;
+  justify-content: space-evenly;
+  position: sticky;
+  text-align: center;
+  top: 100vh;
+}
+
+#footer-ul {
+  flex-direction: column;
+}
+
+/* All the footer CSS END */
+
+/* Main CSS START */
+
+body {
+  background-color: #dce0de;
+}
