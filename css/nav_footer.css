@@ -94,8 +94,14 @@ body {
   background-color: #dce0de;
 }
 
+@media (max-width: 500px) {
+  .nav-ul {
+    justify-content: center;
+  }
+}
+
 @media (min-width: 960px) {
   nav {
-    height: 70vh;
+    height: 50vh;
   }
 }
