@@ -65,6 +65,17 @@ h2 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid #2a2d1e;
+}
+
 /* IMAGES END */
 
 /* BUTTONS START */
@@ -94,7 +105,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: yellowgreen;
+  background-color: rgb(190, 205, 50);
 }
 
 /* BUTTONS END */

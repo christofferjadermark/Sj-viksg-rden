@@ -31,15 +31,16 @@ nav {
 .navli {
   text-decoration: underline solid transparent;
   transition: text-decoration 0.4s ease;
-  color: white;
+  color: #2a2d1e;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
+  padding-right: 20px;
 }
 
 .navli:hover {
-  text-decoration: underline 1px solid #fddb3a;
+  text-decoration: underline 2px solid #fffb2c;
 }
 
 li {
@@ -48,10 +49,10 @@ li {
 
 .nav-ul {
   display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: right;
   padding: 2px 0;
+  gap: 15px;
+  padding-top: 10px;
 }
 
 /* All the Nav CSS END */
