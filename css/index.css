@@ -23,6 +23,25 @@ p {
   font-family: sans-serif;
 }
 
+h2 {
+  color: #2a2d1e;
+  font-family: sans-serif;
+  margin: 15px 0;
+}
+
+.about-container {
+  padding: 0 10px;
+}
+
+.about-ul {
+  color: #2a2d1e;
+}
+
+.about-li {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
 .p-margin {
   margin-bottom: 20px;
 }

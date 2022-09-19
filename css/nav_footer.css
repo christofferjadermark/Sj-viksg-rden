@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+/* All the Nav CSS START */
+
 nav {
   background-image: url(/images/navbakgrund.jpg);
   /* background-size: 100vh; */
@@ -52,6 +54,8 @@ li {
   padding: 2px 0;
 }
 
+/* All the Nav CSS END */
+
 /* All the footer CSS START */
 
 footer {
@@ -76,4 +80,10 @@ footer {
 
 body {
   background-color: #dce0de;
+}
+
+@media (min-width: 960px) {
+  nav {
+    height: 30vh;
+  }
 }
