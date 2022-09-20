@@ -7,7 +7,7 @@
 /* All the Nav CSS START */
 
 nav {
-  background-image: url(/images/navbakgrund.jpg);
+  background-image: url(../images/navbakgrund.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,12 +30,12 @@ nav {
 .navli {
   text-decoration: underline solid transparent;
   transition: text-decoration 0.4s ease;
-  color: #8e6e53;
+  color: #2a2d1e;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1rem;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .navli:hover {
@@ -101,6 +101,6 @@ body {
 
 @media (min-width: 960px) {
   nav {
-    height: 50vh;
+    height: 70vh;
   }
 }
