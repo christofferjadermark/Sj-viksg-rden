@@ -2,24 +2,44 @@ h1 {
   color: #2a2d1e;
   text-align: center;
   margin-top: 40px;
+  font-family: "Capriola", sans-serif;
+}
+
+h2 {
+  font-family: "Capriola", sans-serif;
+  color: #2a2d1e;
+}
+
+h3 {
+  font-family: "Lexend", sans-serif;
+  color: #2a2d1e;
+}
+
+p {
+  color: #2a2d1e;
+  font-family: "Lexend", sans-serif;
 }
 
 body {
   min-height: 100vh;
 }
 
-.prices-container {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  margin-top: 40px;
-  text-align: center;
+/*
+--- FONTS ---
+font-family: 'Capriola', sans-serif;
+font-family: 'Lexend', sans-serif;
+*/
+
+.prices-img {
+  width: 218px;
+  height: 184px;
 }
 
 .prices-info {
-  font-size: 1.5rem;
+  display: flex;
 }
 
-.prices-li {
-  font-size: 1rem;
+.prices-info-container {
+  display: flex;
+  flex-direction: column;
 }
