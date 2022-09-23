@@ -11,21 +11,21 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
   margin: 50px;
   color: #2a2d1e;
   text-align: center;
+  font-family: "Capriola", sans-serif;
 }
 
 p {
   color: #2a2d1e;
   padding: 0 10px;
-  font-family: sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 h2 {
   color: #2a2d1e;
-  font-family: sans-serif;
+  font-family: "Capriola", sans-serif;
   margin: 15px 0;
 }
 
